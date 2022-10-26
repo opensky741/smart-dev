@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "John's Portfolio",
-  description:
-    `Talented senior software engineer with a B.S in Computer Science. Expert in software development with 6+ years of
+  description: `Talented senior software engineer with a B.S in Computer Science. Expert in software development with 6+ years of
     contributions in various projects. I strive to focus on the delivery of high-quality products and work. `,
   og: {
     title: "John Smith Portfolio",
@@ -23,13 +22,12 @@ const greeting = {
   title: "John Smith",
   logo_name: "johnsmith",
   nickname: "",
-  subTitle:
-   `Talented senior software engineer with a B.S in Computer Science. Expert in software development with 6+ years of
+  subTitle: `Talented senior software engineer with a B.S in Computer Science. Expert in software development with 6+ years of
    contributions in various projects. I strive to focus on the delivery of high-quality products and work. `,
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/devsmith-pro/masterPortfolio",
-  githubProfile: "https://github.com/devsmith-pro",
+    "https://drive.google.com/file/d/11_70NzHzSkvLih82_fa7FtC4YBNo1Jcy/view?usp=sharing",
+  portfolio_repository: "https://github.com/goldenstar-dev/devsmith",
+  githubProfile: "https://github.com/goldenstar-dev",
 };
 
 const socialMediaLinks = [
@@ -42,7 +40,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/devsmith-pro",
+    link: "https://github.com/goldenstar-dev",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -60,7 +58,8 @@ const socialMediaLinks = [
   },
   {
     name: "Resume",
-    link: "drive.google.com/",
+    link:
+      "https://drive.google.com/file/d/11_70NzHzSkvLih82_fa7FtC4YBNo1Jcy/view?usp=sharing",
     fontAwesomeIcon: "fa fa-file-pdf-o", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#EC1C24", // Reference https://simpleicons.org/?q=
   },
@@ -71,7 +70,7 @@ const skills = {
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
-      skills: [ 
+      skills: [
         "⚡ Building responsive website front end using React-Redux",
         "⚡ Implementing pixel-perfect design using vertical alignments.",
         "⚡ Creating application backend in Node, Express & Nest",
@@ -108,6 +107,13 @@ const skills = {
           },
         },
         {
+          skillName: "TailwindCss",
+          fontAwesomeClassname: "vscode-icons:file-type-tailwind",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -138,17 +144,24 @@ const skills = {
           },
         },
         {
-          skillName: "ExpressJs",
-          fontAwesomeClassname: "simple-icons:express-dot-js",
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos:nextjs-icon",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "NestJs",
-          fontAwesomeClassname: "simple-icons:nest-dot-js",
+          skillName: "ExpressJs",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#339933",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "NestJs",
+          fontAwesomeClassname: "logos:nestjs",
+          style: {
+            color: "#000000",
           },
         },
         {
@@ -165,25 +178,78 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
+        {
+          skillName: "WebSocket",
+          fontAwesomeClassname: "logos:websocket",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
+          skillName: "Chakra-UI",
+          fontAwesomeClassname: "simple-icons:chakraui",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Material-UI",
+          fontAwesomeClassname: "logos:material-ui",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Ant-Design",
+          fontAwesomeClassname: "simple-icons:antdesign",
+          style: {
+            color: "#02569B",
+          },
+        },
       ],
     },
     {
-      title: "Python Development",
-      fileName: "DesignImg",
+      title: "e-Commerce Development",
+      fileName: "eCommerceImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
+      title: "BlockChain Development",
+      fileName: "blockchainImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
@@ -289,54 +355,12 @@ const skills = {
         },
       ],
     },
-  
   ],
 };
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/layman_brother",
-    // },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "simple-icons:codechef",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "simple-icons:hackerearth",
-    //   style: {
-    //     color: "#323754",
-    //   },
-    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -640,8 +664,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "5-505 23 St E, Saskatoon , SK S7K 4K7, Canada",
+    subtitle: "5-505 23 St E, Saskatoon , SK S7K 4K7, Canada",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://map.google.com/",
   },

@@ -24,7 +24,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://devsmith-pro.github.io/)**
+To view a live example, **[click here](https://devsmith-pro.herokuapp.com/)**
 
 # Clone and Use 📋
 
@@ -32,14 +32,14 @@ To view a live example, **[click here](https://devsmith-pro.github.io/)**
 - While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-    ```bash
-     git clone https://github.com/devsmith-pro/masterPortfolio.git
-    ```
-    This will clone the whole repository in your system.
+  ```bash
+   git clone https://github.com/goldenstar-dev/devsmith.git
+  ```
+  This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-    ```node
-    npm install
-    ```
+  ```node
+  npm install
+  ```
 - Now the project is ready to use
 - You can check it using `npm start`, it will open the website locally on your browser.
 
@@ -105,7 +105,7 @@ Whenever you want to update the github related information on the website you ne
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://devsmith-pro.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
+Note here that if you click [my portfolio](https://devsmith-pro.herokuapp.com), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
 Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
@@ -156,7 +156,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`. 
+Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.
 
 # Technologies used 🛠️
 
@@ -177,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # Contributing 💡
 
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/devsmith-pro/masterPortfolio/pulls) or [issue](https://github.com/devsmith-pro/masterPortfolio/issues).
+If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/goldenstar-dev/devsmith/pulls) or [issue](https://github.com/goldenstar-dev/devsmith/issues).
 
 - Move to Gatsby
 - Add Podcast Section and Video Section
